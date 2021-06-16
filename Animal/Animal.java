@@ -1,6 +1,12 @@
 public class Animal {
   // attributes
-  private String species, name, size, age;
+  private String species, name;
+
+  Animal(String initialName, String initialSpecies)
+  {
+    name = initialName;
+    species = initialSpecies;
+  }
 
   public String getSpecies(){
     return species;
