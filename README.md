@@ -1,2 +1,5 @@
-# learning-java
-Collection of small programs to practice java.
+Learning Java
+--------------
+
+This project contains a collection of small programs to practice java.
+
