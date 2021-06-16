@@ -4,8 +4,8 @@ public class Animal {
 
   Animal(String initialName, String initialSpecies)
   {
-    name = initialName;
-    species = initialSpecies;
+    this.setName(initialName);;
+    this.setSpecies(initialSpecies);
   }
 
   public String getSpecies(){
